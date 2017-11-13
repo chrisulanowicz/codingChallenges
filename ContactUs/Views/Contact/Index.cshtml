@@ -1,0 +1,54 @@
+@model ContactUs.Models.ContactViewModel;
+@using ContactUs.Models;
+
+@{
+    ViewData["title"] = "Contact Form";
+}
+
+<div id="contact">
+    <div id="contact-form">
+        @if(@ViewBag.Success != null)
+        {
+            <h2 id="success">@ViewBag.Success</h2>
+        }
+        else
+        {
+            <h2 class="form-heading">Contact Us</h2>
+        }
+        
+        <form asp-controller="Contact" asp-action="Create" method="post" novalidate>
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" placeholder="*Required" />
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" placeholder="*Required" />
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailAddress"></label>
+                <input asp-for="EmailAddress" placeholder="*Required" />
+                <span asp-validation-for="EmailAddress"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telephone"></label>
+                <input asp-for="Telephone" />
+                <span asp-validation-for="Telephone"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestTimeToCall"></label>
+                <select asp-for="BestTimeToCall" asp-items="@ViewBag.BestTimes">
+                </select>
+                <span asp-validation-for="BestTimeToCall"></span>
+            </div>
+            <div class="form-group">
+                <img src="@ViewBag.CaptchaImage" alt="@ViewBag.CaptchaImage" /> <!-- change alt attribute to regular string once captcha drawing issues fixed -->
+                <input type="text" name="userCaptchaCode" placeholder="Solve the Captcha Image" />
+                <span asp-validation-for="Captcha"></span>
+            </div>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/bin/Debug/netcoreapp2.0/ContactUs.deps.json
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/bin/Debug/netcoreapp2.0/ContactUs.runtimeconfig.json
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/bin/Debug/netcoreapp2.0/ContactUs.runtimeconfig.dev.json
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/bin/Debug/netcoreapp2.0/ContactUs.dll
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/bin/Debug/netcoreapp2.0/ContactUs.pdb
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.csproj.CoreCompileInputs.cache
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.AssemblyInfoInputs.cache
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.AssemblyInfo.cs
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.dll
+/Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.pdb

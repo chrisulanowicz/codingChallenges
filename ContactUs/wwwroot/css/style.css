@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+header h1 {
+    display: inline-block;
+    margin-right: 40%;
+    margin-bottom: 20px;
+}
+header a {
+    text-decoration: none;
+    color: darkorange;
+    padding: 7px 17px;
+    border-radius: 4px;
+    background-color: lightblue;
+    
+}
+
+#contact {
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 60%;
+    margin: 30px auto;
+}
+
+#contact h2 {
+    font-family: Courier New, Courier, monospace;
+}
+
+#contact-form {
+    padding: 20px;
+    background-color: burlywood;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.field-validation-error {
+    color: red;
+    font-style: italic;
+}
+
+.form-group, input[type="submit"] {
+    margin: 20px 0 20px 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 30%;
+}
+
+.form-group span {
+    margin-left: 15px;
+}
+
+input[type="submit"] {
+    padding: 7px 17px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 4px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+#success {
+    color: green;
+    font-style: italic;
+}
