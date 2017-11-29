@@ -8,3 +8,14 @@
 /Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.AssemblyInfo.cs
 /Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.dll
 /Users/chrisulanowicz/Desktop/employment_stuff/ContactUs/obj/Debug/netcoreapp2.0/ContactUs.pdb
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\bin\Debug\netcoreapp2.0\ContactUs.deps.json
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\bin\Debug\netcoreapp2.0\ContactUs.runtimeconfig.json
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\bin\Debug\netcoreapp2.0\ContactUs.runtimeconfig.dev.json
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\bin\Debug\netcoreapp2.0\ContactUs.dll
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\bin\Debug\netcoreapp2.0\ContactUs.pdb
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.csprojResolveAssemblyReference.cache
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.csproj.CoreCompileInputs.cache
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.AssemblyInfoInputs.cache
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.AssemblyInfo.cs
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.dll
+C:\Users\chris_u\Desktop\codingChallenges\ContactUs\obj\Debug\netcoreapp2.0\ContactUs.pdb

@@ -37,29 +37,25 @@ namespace ContactUs.Controllers
 
             return TimeIntervals;
         }
-
-        // public FileStreamResult GetImage()
-        // change method declaration back to the line above once drawing issue fixed
-        public string GetImage()
+        
+        [HttpGet]
+        [Route("Contact/GetImage")]
+        public FileStreamResult GetImage()
         {
-            // int width = 200;
-            // int height = 60;
+            int width = 200;
+            int height = 60;
             var captchaCode = Captcha.GenerateCaptchaCode();
-            // var result = Captcha.GenerateCaptchaImage(width, height, captchaCode);
-            // HttpContext.Session.SetString("CaptchaCode", result.CaptchaCode);
-            // Stream s = new MemoryStream(result.CaptchaByteData);
-            // return new FileStreamResult(s, "image/png");
-
-            // Next 2 lines to be removed once Drawing issues are fixed
-            HttpContext.Session.SetString("CaptchaCode", captchaCode);
-            return captchaCode;
+            var result = Captcha.GenerateCaptchaImage(width, height, captchaCode);
+            HttpContext.Session.SetString("CaptchaCode", result.CaptchaCode);
+            Stream s = new MemoryStream(result.CaptchaByteData);
+            return new FileStreamResult(s, "image/png");
+            
         }
 
         [HttpGet]
         [Route("")]
         public IActionResult Index()
         {
-            ViewBag.CaptchaImage = GetImage();
 
             // This will only get assigned when coming back from a successful form submission in the Create method
             ViewBag.Success = TempData["Success"];
@@ -97,7 +93,6 @@ namespace ContactUs.Controllers
             }
             else
             {
-                ViewBag.CaptchaImage = GetImage();
                 ViewBag.BestTimes = GetTimeIntervals();
                 return View("Index", model);
             }

@@ -44,7 +44,7 @@
                 <span asp-validation-for="BestTimeToCall"></span>
             </div>
             <div class="form-group">
-                <img src="@ViewBag.CaptchaImage" alt="@ViewBag.CaptchaImage" /> <!-- change alt attribute to regular string once captcha drawing issues fixed -->
+                <img src="/Contact/GetImage" alt="Captcha" /> <!-- change alt attribute to regular string once captcha drawing issues fixed -->
                 <input type="text" name="userCaptchaCode" placeholder="Solve the Captcha Image" />
                 <span asp-validation-for="Captcha"></span>
             </div>
