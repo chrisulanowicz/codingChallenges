@@ -20,7 +20,15 @@ namespace SharpEcho.Recruiting.SpellChecker.Core
         /// <returns>true when the word is spelled correctly, false otherwise</returns>
         public bool Check(string word)
         {
-            throw new System.NotImplementedException();
+            if(word.IndexOf("ie") > 0 && word[word.IndexOf("ie")-1] == 'c')
+            {
+                return false;
+            }
+            if(word.IndexOf("ei") > 0 && word[word.IndexOf("ei")-1] != 'c')
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

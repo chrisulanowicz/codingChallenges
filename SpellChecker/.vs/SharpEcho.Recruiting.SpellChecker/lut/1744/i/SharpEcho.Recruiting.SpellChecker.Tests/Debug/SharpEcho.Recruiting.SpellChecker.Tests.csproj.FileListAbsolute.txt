@@ -1,0 +1,6 @@
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\b\SharpEcho.Recruiting.SpellChecker.Tests\bin\Debug\SharpEcho.Recruiting.SpellChecker.Tests.dll
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\b\SharpEcho.Recruiting.SpellChecker.Tests\bin\Debug\SharpEcho.Recruiting.SpellChecker.Tests.pdb
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\i\SharpEcho.Recruiting.SpellChecker.Tests\Debug\SharpEcho.Recruiting.SpellChecker.Tests.csprojResolveAssemblyReference.cache
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\i\SharpEcho.Recruiting.SpellChecker.Tests\Debug\SharpEcho.Recruiting.SpellChecker.Tests.csproj.CoreCompileInputs.cache
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\i\SharpEcho.Recruiting.SpellChecker.Tests\Debug\SharpEcho.Recruiting.SpellChecker.Tests.dll
+C:\Users\chris_u\Desktop\codingChallenges\SpellChecker\.vs\SharpEcho.Recruiting.SpellChecker\lut\0\i\SharpEcho.Recruiting.SpellChecker.Tests\Debug\SharpEcho.Recruiting.SpellChecker.Tests.pdb
